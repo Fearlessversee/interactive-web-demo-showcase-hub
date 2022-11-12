@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+logs/
+deployment-logs/
+audit-logs/
+.analytics/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Build artifacts
+.next/
+dist/
+build/
+
+# Python cache (if any)
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Database files
+*.db
+*.sqlite
+
+# Demo ports tracking
+lib/.demo-ports.json
+
+# Archives
+*.zip
+*.tar.gz
+
+# Cloudflare credentials
+.cloudflared/*.json
+
+# Vercel
+.vercel/
